@@ -1,8 +1,21 @@
-# React + Vite
+#   GIF Finder
+Simple app to showcase Marvel and DC heroes, built with React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+1. Clone the repository
+```bash
+git clone https://github.com/Fernando-LRz/heroes-app.git
+``` 
+2. Go inside the project folder
+```bash
+cd heroes-app
+```
+3. Install dependencies
+```bash
+npm install
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run the app
+```bash
+npm run dev
+```
