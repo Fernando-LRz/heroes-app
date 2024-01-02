@@ -1,4 +1,4 @@
-#   GIF Finder
+#   Heroes app
 Simple app to showcase Marvel and DC heroes, built with React.
 
 ## Installation
