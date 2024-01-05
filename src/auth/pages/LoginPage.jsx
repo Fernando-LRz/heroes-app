@@ -9,8 +9,10 @@ export const LoginPage = () => {
     const { login } = useContext( AuthContext );
 
     const onLogin = () => {
-        login('Fernando LR')
-        navigate('/', { replace: true });
+        const lastPath = localStorage.getItem('lastPath') || '/';
+        
+        login('Fernando LR');
+        navigate(lastPath, { replace: true });
     };
 
     return (
