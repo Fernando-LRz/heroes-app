@@ -4,11 +4,11 @@ import { MemoryRouter } from 'react-router-dom';
 import { AuthContext } from '../../../src/auth/context';
 import { Navbar } from '../../../src/ui';
 
-const mockedUseNavigation = jest.fn();
+const mockedUseNavigate = jest.fn();
 
 jest.mock('react-router-dom', () => ({
     ...jest.requireActual('react-router-dom'),
-    useNavigate: () => mockedUseNavigation
+    useNavigate: () => mockedUseNavigate
 }));
 
 describe('<NavBar /> tests', () => {
@@ -51,7 +51,7 @@ describe('<NavBar /> tests', () => {
         fireEvent.click( logoutBtn );
 
         expect( contextValue.logout ).toHaveBeenCalled();
-        expect( mockedUseNavigation ).toHaveBeenCalledWith('/login', { replace: true });
+        expect( mockedUseNavigate ).toHaveBeenCalledWith('/login', { replace: true });
     });
 
 });
