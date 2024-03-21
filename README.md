@@ -1,4 +1,4 @@
-#   Heroes Finder
+#   Heroes finder
 Heroes finder web app built with React.
 
 ## Installation
