@@ -23,16 +23,16 @@ npm run dev
 ## Images
 | Marvel heroes                                                    |
 | ---------------------------------------------------------------- |
-| <img src="images/marvel-heroes.png" width="900" height="450"/>   |
+| <img src="images/marvel-heroes.png" width="900" height="420"/>   |
 
 | DC heroes                                                        |
 | ---------------------------------------------------------------- |
-| <img src="images/dc-heroes.png" width="900" height="450"/>       |
+| <img src="images/dc-heroes.png" width="900" height="420"/>       |
 
 | Hero                                                             |
 | ---------------------------------------------------------------- |
-| <img src="images/hero.png" width="900" height="450"/>            |
+| <img src="images/hero.png" width="900" height="420"/>            |
 
 | Heroes search                                                    |
 | ---------------------------------------------------------------- |
-| <img src="images/search.png" width="900" height="450"/>          |
+| <img src="images/search.png" width="900" height="420"/>          |
