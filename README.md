@@ -15,7 +15,7 @@ cd heroes-filter
 npm install
 ```
 
-## Run the app
+## Run
 ```bash
 npm run dev
 ```
